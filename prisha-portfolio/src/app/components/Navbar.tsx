@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
 
           {/* New Skills Link */}
-          <Link href="/#skills" className="hover:text-white transition-colors">
+          <Link href="/skills" className="hover:text-white transition-colors">
             Skills
           </Link>
 
