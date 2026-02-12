@@ -39,8 +39,7 @@ export default function Publications() {
           </li>
           <li>
             Achieved <span className="text-white font-medium">+17% CIDEr</span> over GPT-4o
-            and <span className="text-white font-medium">+14% over VLLaMA-3</span>
-            on the YouCook2 dataset.
+            and <span className="text-white font-medium">+14% over VLLaMA-3</span> on the YouCook2 dataset.
           </li>
         </ul>
 
