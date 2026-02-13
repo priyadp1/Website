@@ -13,8 +13,9 @@ export default function Home() {
 
         <p className="max-w-2xl text-gray-300 leading-relaxed">
           I study multi-agent consensus formation, Multimodal Machine Learning ,
-          and interpretable Machine Learning. My work spans LLM reasoning systems, large-scale GPU experimentation, and
-          interpretable decision tree algorithms.
+          and interpretable Machine Learning. My work spans LLM reasoning systems, multimodal captioning, and decision tree interpretability. 
+          I am passionate about building real-world AI applications and advancing our understanding of model behavior through 
+          rigorous research and experimentation.
         </p>
       </section>
 
@@ -26,7 +27,7 @@ export default function Home() {
         <ul className="space-y-2 text-gray-300">
           <li>• Multi-Agent LLM Deliberation & Consensus Dynamics (Algoverse)</li>
           <li>• Interpretable Machine Learning (DIMACS)</li>
-          <li>• Multimodal Captioning Systems (NeurIPS 2025 7HVU Oral and AAAI 2026 AI4EDU)</li>
+          <li>• Multimodal Captioning Systems (Alogverse) (NeurIPS 2025 7HVU Oral and AAAI 2026 AI4EDU)</li>
         </ul>
       </section>
 
