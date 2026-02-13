@@ -46,10 +46,10 @@ export default function Home() {
         </h2>
 
         <ul className="space-y-2 text-gray-300">
-          <li><p><span className="text-white font-medium">Algorithms & Theory:</span> Data Structures, Discrete Structures 1-2, Design & Analysis of Algorithms</p></li>
-          <li><p><span className="text-white font-medium">Artificial Intelligence:</span> Artificial Intelligence, Deep Learning, Natural Language Processing</p></li>
-          <li><p><span className="text-white font-medium">Mathematics:</span> Linear Algebra, Calculus 1-3, Differential Equations, Probability & Statistics</p></li>
-          <li><p><span className="text-white font-medium">Systems:</span> Computer Architecture, Operating Systems</p></li>
+          <li><p><span className="text-white font-medium">• Algorithms & Theory:</span> Data Structures, Discrete Structures 1-2, Design & Analysis of Algorithms</p></li>
+          <li><p><span className="text-white font-medium">• Artificial Intelligence:</span> Artificial Intelligence, Deep Learning, Natural Language Processing</p></li>
+          <li><p><span className="text-white font-medium">• Mathematics:</span> Linear Algebra, Calculus 1-3, Differential Equations, Probability & Statistics</p></li>
+          <li><p><span className="text-white font-medium">• Systems:</span> Computer Architecture, Operating Systems</p></li>
         </ul>
       </section>
 
