@@ -9,7 +9,7 @@ export default function Skills() {
         {/* Core ML & AI */}
         <div>
           <h3 className="text-lg font-medium text-white mb-3">
-            Core ML & AI
+            Core AI & ML
           </h3>
           <p>
             PyTorch, Transformers, Hugging Face, FAISS, LightGBM, XGBoost,
@@ -17,14 +17,32 @@ export default function Skills() {
           </p>
         </div>
 
-        {/* Programming */}
+         {/*Programming Languages */}
         <div>
           <h3 className="text-lg font-medium text-white mb-3">
             Programming Languages
           </h3>
-          <p>
-            Python, C, C++, Java, JavaScript, PostgreSQL, MATLAB, HTML/CSS, GraphQL
-          </p>
+            <p>
+                Python, C, C++, Java, JavaScript, MATLAB
+            </p>
+            </div>
+        {/* Web & Frontend */}
+        <div>
+            <h3 className="text-lg font-medium text-white mb-3">
+                Web & Frontend
+            </h3>
+            <p>
+                React, Next.js, HTML/CSS, Tailwind CSS, GraphQL
+            </p>
+        </div>
+        {/* Databases */}
+        <div>
+            <h3 className="text-lg font-medium text-white mb-3">
+                Databases
+            </h3>
+            <p>
+                SQL, PostgreSQL
+            </p>
         </div>
 
         {/* Research Concepts */}

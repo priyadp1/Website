@@ -29,13 +29,27 @@ export default function Home() {
 
       <section className="space-y-6">
         <h2 className="text-2xl font-semibold text-white">
-          Current Focus
+          Current & Past Research
         </h2>
 
         <ul className="space-y-2 text-gray-300">
           <li>• Multi-Agent LLM Deliberation & Consensus Dynamics (Algoverse)</li>
           <li>• Interpretable Machine Learning (DIMACS)</li>
           <li>• Multimodal Captioning Systems (Alogverse) (NeurIPS 2025 7HVU Oral and AAAI 2026 AI4EDU)</li>
+          <li>• Alogrithms Researcher (The College of New Jersey) </li>
+        </ul>
+      </section>
+
+      <section className="space-y-6">
+        <h2 className="text-2xl font-semibold text-white">
+          Classes Taken
+        </h2>
+
+        <ul className="space-y-2 text-gray-300">
+          <li>• Data Structures, Discrete Structures 1-2, Design & Analysis of Algorithms</li>
+          <li>• Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing</li>
+          <li>• Linear Algebra, Calculus 1-3, Differential Equations, Probability & Statistics</li>
+          <li>• Computer Architecture, Operating Systems</li>
         </ul>
       </section>
 
