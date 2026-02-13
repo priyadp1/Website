@@ -12,11 +12,19 @@ export default function Home() {
         </p>
 
         <p className="max-w-2xl text-gray-300 leading-relaxed">
-          I study multi-agent consensus formation, Multimodal Machine Learning ,
-          and interpretable Machine Learning. My work spans LLM reasoning systems, multimodal captioning, and decision tree interpretability. 
-          I am passionate about building real-world AI applications and advancing our understanding of model behavior through 
-          rigorous research and experimentation.
-        </p>
+  I study multi-agent consensus formation, multimodal machine learning, 
+  and interpretable AI. My research spans LLM reasoning systems, multimodal 
+  captioning, and decision tree interpretability, with a focus on understanding 
+  how structured reasoning and reliable behavior emerge in complex models.  
+
+  I am passionate about building real-world AI systems and advancing our 
+  understanding of model behavior through rigorous experimentation and 
+  principled analysis.  
+
+  I hold the AWS Certified Machine Learning – Specialty and AWS Certified 
+  Cloud Practitioner certifications.
+</p>
+
       </section>
 
       <section className="space-y-6">

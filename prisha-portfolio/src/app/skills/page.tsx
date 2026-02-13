@@ -27,6 +27,39 @@ export default function Skills() {
           </p>
         </div>
 
+        {/* Research Concepts */}
+        <div>
+          <h3 className="text-lg font-medium text-white mb-3">
+            Research Concepts
+          </h3>
+            <p>
+                OpenAI APIs, Multi-Agent LLM Systems, Multimodal Chain-of-Thought (MMCoT)
+            </p>
+            </div>
+
+        {/* Compute Tools */}
+        <div>
+          <h3 className="text-lg font-medium text-white mb-3">
+            Data & Scientific Computing
+          </h3>
+          <p>
+           NumPy, Pandas, GeoPandas, Matplotlib, Seaborn
+          </p>
+        </div>
+
+        {/* Cloud, Systems & MLOps */}
+        <div>
+          <h3 className="text-lg font-medium text-white mb-3">
+            Cloud, Systems & MLOps
+          </h3>
+            <p>
+                Git, GitHub, Docker, AWS, Microsoft Azure,  Azure AI Foundry, CI/CD, 
+                Bitbucket, Jira, RunPod, Google Colab, Anaconda
+            </p>
+            </div>
+        
+        
+
         {/* ... rest unchanged */}
       </div>
     </section>
