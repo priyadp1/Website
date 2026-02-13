@@ -24,12 +24,12 @@ export default function Navbar() {
             Publications
           </Link>
 
-          <Link href="/projects" className="hover:text-white transition-colors">
-            Projects
-          </Link>
-
           <Link href="/experience" className="hover:text-white transition-colors">
             Experience
+          </Link>
+        
+          <Link href="/projects" className="hover:text-white transition-colors">
+            Projects
           </Link>
 
           {/* New Skills Link */}

@@ -1,4 +1,4 @@
-export default function Extracurriculars() {
+export default function extracurriculars() {
   return (
     <div className="space-y-24">
 
@@ -60,7 +60,7 @@ export default function Extracurriculars() {
         <div className="space-y-4">
           <div>
             <h2 className="text-2xl font-semibold text-white">
-              Recruitment Chair — Kappa Theta Pi (Zeta Chapter), TCNJ
+              Recruitment Chair — Kappa Theta Pi (Zeta Chapter), The College of New Jersey
             </h2>
             <p className="text-sm text-gray-500 mt-1 tracking-wide">
               Dec 2024 – May 2025
