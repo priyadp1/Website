@@ -17,7 +17,7 @@ export default function Research() {
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            ML Research Extern — DIMACS
+            ML Research Extern (Team Lead) — DIMACS
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
             Interpretable ML & Model Multiplicity
@@ -26,7 +26,7 @@ export default function Research() {
 
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
           <li>
-            Investigating whether real-world tabular datasets admit small,
+            Spearheading empirical research on whether real-world tabular datasets admit small,
             accurate, and interpretable decision trees.
           </li>
           <li>
@@ -53,7 +53,7 @@ export default function Research() {
         <div className="space-y-6">
           <div>
             <h3 className="text-lg font-semibold text-white">
-              DynaStride: Dynamic Stride Windowing with MMCoT
+              Project 1: DynaStride: Dynamic Stride Windowing with MMCoT
             </h3>
             <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
               <li>
@@ -74,7 +74,7 @@ export default function Research() {
 
           <div>
             <h3 className="text-lg font-semibold text-white">
-              Multi-Agent LLM Deliberation & Consensus Dynamics
+              Project 2: Multi-Agent LLM Deliberation & Consensus Dynamics
             </h3>
             <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
               <li>
