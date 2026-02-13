@@ -92,6 +92,14 @@ export default function Skills() {
                 Git, GitHub, Docker, CI/CD, Bitbucket, Jira, Anaconda
             </p>
             </div>
+        <div>
+          <h3 className="text-lg font-medium text-white mb-3">
+            AWS Tools
+          </h3>
+            <p>
+                EC2, S3, SageMaker AI, Lambda, Athena, Glue, CloudWatch, DynamoDB, CLI
+            </p>
+            </div>
       </div>
     </section>
   );
