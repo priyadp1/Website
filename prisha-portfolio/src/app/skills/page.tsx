@@ -29,7 +29,15 @@ export default function Skills() {
         {/* Web & Frontend */}
         <div>
             <h3 className="text-lg font-medium text-white mb-3">
-                Web & Frontend
+                Backend
+            </h3>
+            <p>
+                Flask, REST APIs, FastAPI
+            </p>
+        </div>
+        <div>
+            <h3 className="text-lg font-medium text-white mb-3">
+                Frontend
             </h3>
             <p>
                 React, Next.js, HTML/CSS, Tailwind CSS, GraphQL
@@ -41,7 +49,7 @@ export default function Skills() {
                 Databases
             </h3>
             <p>
-                SQL, PostgreSQL
+                SQL, PostgreSQL, SQLite
             </p>
         </div>
 
@@ -65,20 +73,25 @@ export default function Skills() {
           </p>
         </div>
 
-        {/* Cloud, Systems & MLOps */}
+        {/* Cloud & MLOps */}
         <div>
           <h3 className="text-lg font-medium text-white mb-3">
-            Cloud, Systems & MLOps
+            Cloud & ML Infrastructure
           </h3>
             <p>
-                Git, GitHub, Docker, AWS, Microsoft Azure,  Azure AI Foundry, CI/CD, 
-                Bitbucket, Jira, RunPod, Google Colab, Anaconda
+                AWS, Microsoft Azure, Azure AI Fondry, Docker,
+                RunPod, Google Colab
             </p>
             </div>
-        
-        
-
-        {/* ... rest unchanged */}
+        {/* Development & Collaboration */}
+        <div>
+          <h3 className="text-lg font-medium text-white mb-3">
+            Development & Collaboration 
+          </h3>
+            <p>
+                Git, GitHub, Docker, CI/CD, Bitbucket, Jira, Anaconda
+            </p>
+            </div>
       </div>
     </section>
   );
