@@ -8,7 +8,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-400">
-          AI Researcher & Developer | CS & Mathematics @ Rutgers
+          AI/ML Researcher & Developer | CS & Mathematics @ Rutgers
         </p>
 
         <p className="max-w-2xl text-gray-300 leading-relaxed">
