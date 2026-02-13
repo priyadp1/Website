@@ -89,7 +89,7 @@ export default function Skills() {
             Development & Collaboration 
           </h3>
             <p>
-                Git, GitHub, Docker, CI/CD, Bitbucket, Jira, Anaconda
+                Git, GitHub, CI/CD, Bitbucket, Jira, Anaconda
             </p>
             </div>
         <div>
