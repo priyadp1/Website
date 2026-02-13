@@ -29,7 +29,7 @@ export default function Home() {
 
       <section className="space-y-6">
         <h2 className="text-2xl font-semibold text-white">
-          Current & Past Research
+          Current & Past Research (Most recent on top)
         </h2>
 
         <ul className="space-y-2 text-gray-300">
@@ -42,14 +42,14 @@ export default function Home() {
 
       <section className="space-y-6">
         <h2 className="text-2xl font-semibold text-white">
-          Classes Taken
+          Selected Coursework
         </h2>
 
         <ul className="space-y-2 text-gray-300">
-          <li>• Data Structures, Discrete Structures 1-2, Design & Analysis of Algorithms</li>
-          <li>• Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing</li>
-          <li>• Linear Algebra, Calculus 1-3, Differential Equations, Probability & Statistics</li>
-          <li>• Computer Architecture, Operating Systems</li>
+          <li>• <p><span className="text-white font-medium">Algorithms & Theory:</span> Data Structures, Discrete Structures 1-2, Design & Analysis of Algorithms</p></li>
+          <li>• <p><span className="text-white font-medium">Artificial Intelligence:</span> Artificial Intelligence, Deep Learning, Natural Language Processing</p></li>
+          <li>• <p><span className="text-white font-medium">Mathematics:</span> Linear Algebra, Calculus 1-3, Differential Equations, Probability & Statistics</p></li>
+          <li>• <p><span className="text-white font-medium">Systems:</span> Computer Architecture, Operating Systems</p></li>
         </ul>
       </section>
 

@@ -36,6 +36,9 @@ export default function Navbar() {
           <Link href="/skills" className="hover:text-white transition-colors">
             Skills
           </Link>
+          <Link href="/extracurriculars" className="hover:text-white transition-colors">
+            Extracurriculars
+          </Link>
 
           <div className="h-4 w-px bg-gray-700" />
 
