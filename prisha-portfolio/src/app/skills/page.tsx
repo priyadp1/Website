@@ -13,7 +13,7 @@ export default function Skills() {
           </h3>
           <p>
             PyTorch, Transformers, Hugging Face, FAISS, LightGBM, XGBoost,
-            CNNs, Temporal Fusion Transformers (TFT), Retrieval-Augmented Generation (RAG)
+            CNNs, scikit-learn, Kaggle, Temporal Fusion Transformers (TFT), Retrieval-Augmented Generation (RAG)
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export default function Skills() {
           </h3>
             <p>
                 AWS, Microsoft Azure, Azure AI Fondry, Docker,
-                RunPod, Google Colab
+                RunPod, Google Colab, Nvidia GPUs
             </p>
             </div>
         {/* Development & Collaboration */}
