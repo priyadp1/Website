@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-400">
-          AI/ML Researcher & Developer · Computer Science & Mathematics · Rutgers University
+          AI/ML Researcher & Developer · Computer Science & Mathematics · Rutgers University -- New Brunswick
         </p>
 
         <div className="max-w-3xl text-gray-300 leading-relaxed space-y-4 text-lg">
