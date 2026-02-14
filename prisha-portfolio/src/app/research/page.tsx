@@ -59,7 +59,7 @@ export default function Research() {
               <li>
                 Contributed to a hierarchical scene-captioning pipeline
                 integrating dynamic stride window selection and multimodal
-                chain-of-thought reasoning.
+                chain-of-thought reasoning (MMCoT).
               </li>
               <li>
                 Worked with Qwen2.5, Qwen3, MiniLM, and subcaption aggregation
