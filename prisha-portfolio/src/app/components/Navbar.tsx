@@ -24,8 +24,8 @@ export default function Navbar() {
             Publications
           </Link>
 
-          <Link href="/experience" className="hover:text-white transition-colors">
-            Experience
+          <Link href="/industry" className="hover:text-white transition-colors">
+            Industry
           </Link>
         
           <Link href="/projects" className="hover:text-white transition-colors">
