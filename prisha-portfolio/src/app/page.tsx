@@ -75,7 +75,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Geospatial AI/ML
+                AI Associate Developer (Geospatial AI/ML)
               </h3>
               <p className="text-sm text-gray-400">
                 Insurity · Research & Development · SpatialKey Team
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Multimodal Captioning Systems
+                Multimodal Scene Captioning Systems
               </h3>
               <p className="text-sm text-gray-400">
                 Algoverse AI Research · NeurIPS 2025 (7HVU Oral) · AAAI 2026 (AI4EDU)
@@ -120,7 +120,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Algorithms Researcher
+                Algorithms Researcher (RNA Folding & Dynamic Programming)
               </h3>
               <p className="text-sm text-gray-400">
                 The College of New Jersey
