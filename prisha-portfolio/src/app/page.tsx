@@ -33,13 +33,28 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Research Section */}
+      {/* Experiences */}
       <section className="space-y-10">
         <h2 className="text-3xl font-semibold text-white tracking-tight">
-          Research Experience
+          All Experiences
         </h2>
 
         <div className="space-y-8">
+          
+          {/* Regeneron */}
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                Incoming ML Intern 
+              </h3>
+              <p className="text-sm text-gray-400">
+                Regeneron · QA Validations & Operations
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              Start May 2026
+            </span>
+          </div>
 
           {/* DIMACS */}
           <div className="flex justify-between items-start">
@@ -68,6 +83,21 @@ export default function Home() {
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
               Sept 2025 – Present
+            </span>
+          </div>
+
+          {/* Multi-Agent */}
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                Geospatial AI 
+              </h3>
+              <p className="text-sm text-gray-400">
+                Insurity · Research & Development · SpatialKey Team
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              Oct 2025 – Jan 2026
             </span>
           </div>
 
