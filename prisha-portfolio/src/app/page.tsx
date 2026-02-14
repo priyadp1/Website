@@ -146,28 +146,28 @@ export default function Home() {
             <h3 className="text-white font-medium mb-2">
               Algorithms & Theory
             </h3>
-            <p>Data Structures · Discrete Structures I–II · Design & Analysis of Algorithms</p>
+            <p>Data Structures · Discrete Structures I–II · Design & Analysis of Algorithms </p>
           </div>
 
           <div>
             <h3 className="text-white font-medium mb-2">
               Artificial Intelligence
             </h3>
-            <p>Artificial Intelligence · Deep Learning · Natural Language Processing</p>
+            <p>Artificial Intelligence · Deep Learning · Natural Language Processing · Data Science </p>
           </div>
 
           <div>
             <h3 className="text-white font-medium mb-2">
               Mathematics
             </h3>
-            <p>Linear Algebra · Calculus I–III · Differential Equations · Probability & Statistics</p>
+            <p>Calculus I–III · Linear Algebra · Differential Equations · Probability & Statistics · Numerical Computing & Analysis </p>
           </div>
 
           <div>
             <h3 className="text-white font-medium mb-2">
               Systems
             </h3>
-            <p>Computer Architecture · Operating Systems</p>
+            <p>Computer Architecture · Operating Systems · Cryptography & Cybersecurity · Database Systems </p>
           </div>
 
         </div>
