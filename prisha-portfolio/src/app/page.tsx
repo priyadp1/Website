@@ -71,6 +71,21 @@ export default function Home() {
             </span>
           </div>
 
+          {/* Geospatial AI */}
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                Geospatial AI/ML
+              </h3>
+              <p className="text-sm text-gray-400">
+                Insurity · Research & Development · SpatialKey Team
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              Oct 2025 – Jan 2026
+            </span>
+          </div>
+
           {/* Multi-Agent */}
           <div className="flex justify-between items-start">
             <div>
@@ -83,21 +98,6 @@ export default function Home() {
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
               Sept 2025 – Present
-            </span>
-          </div>
-
-          {/* Multi-Agent */}
-          <div className="flex justify-between items-start">
-            <div>
-              <h3 className="text-xl font-medium text-white">
-                Geospatial AI 
-              </h3>
-              <p className="text-sm text-gray-400">
-                Insurity · Research & Development · SpatialKey Team
-              </p>
-            </div>
-            <span className="text-sm text-gray-400 whitespace-nowrap">
-              Oct 2025 – Jan 2026
             </span>
           </div>
 
