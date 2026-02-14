@@ -45,14 +45,14 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Incoming ML Intern 
+                Machine Learning Intern (Incoming) 
               </h3>
               <p className="text-sm text-gray-400">
                 Regeneron · QA Validations & Operations
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
-              Start May 2026
+              May 2026
             </span>
           </div>
 
@@ -60,7 +60,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Interpretable ML
+                Machine Learning Research Extern (Team Lead) --- Interpretable ML & Model Multiplicity
               </h3>
               <p className="text-sm text-gray-400">
                 The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Rutgers University
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                AI Associate Developer (Geospatial AI/ML)
+                AI Associate Developer --- Geospatial AI & ML
               </h3>
               <p className="text-sm text-gray-400">
                 Insurity · Research & Development · SpatialKey Team
@@ -90,7 +90,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Multi-Agent LLM Deliberation & Consensus Dynamics
+                AI Researcher --- Multi-Agent LLM Deliberation & Consensus Dynamics
               </h3>
               <p className="text-sm text-gray-400">
                 Algoverse AI Research
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Multimodal Scene Captioning Systems
+                AI Researcher --- Multimodal Scene Captioning Systems
               </h3>
               <p className="text-sm text-gray-400">
                 Algoverse AI Research · NeurIPS 2025 (7HVU Oral) · AAAI 2026 (AI4EDU)
@@ -120,7 +120,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Algorithms Researcher (RNA Folding & Dynamic Programming)
+                Algorithms Researcher --- RNA Folding & Dynamic Programming
               </h3>
               <p className="text-sm text-gray-400">
                 The College of New Jersey
