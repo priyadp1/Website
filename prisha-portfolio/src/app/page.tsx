@@ -63,7 +63,7 @@ export default function Home() {
                 Interpretable Machine Learning
               </h3>
               <p className="text-sm text-gray-400">
-                DIMACS Center · Rutgers University
+                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Rutgers University
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -108,7 +108,7 @@ export default function Home() {
                 Multimodal Captioning Systems
               </h3>
               <p className="text-sm text-gray-400">
-                Algoverse · NeurIPS 2025 (7HVU Oral) · AAAI 2026 (AI4EDU)
+                Algoverse AI Research · NeurIPS 2025 (7HVU Oral) · AAAI 2026 (AI4EDU)
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
