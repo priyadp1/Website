@@ -77,6 +77,37 @@ export default function Projects() {
           </li>
         </ul>
       </section>
+      
+      <hr className="border-gray-800" />
+
+
+      {/* Personal Portfolio */}
+      <section className="space-y-8 max-w-3xl">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">
+            This Website!
+          </h2>
+          <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            Personal Portfolio
+          </p>
+        </div>
+
+        <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+          <li>
+            Designed and deployed a responsive personal portfolio website using Next.js, 
+            Tailwind CSS, and TypeScript to showcase my work in AI/ML
+          </li>
+          <li>
+             Implemented GitHub-based CI/CD with Vercel for 
+             automated build and deployment on every commit.
+          </li>
+          <li>
+             Leveraged modern React architecture (App Router) and 
+             optimized performance using built-in Next.js font and asset optimization features
+          </li>
+        </ul>
+      </section>
+
 
     </div>
   );

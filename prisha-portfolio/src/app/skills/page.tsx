@@ -49,7 +49,7 @@ export default function Skills() {
                 Databases
             </h3>
             <p>
-                SQL, PostgreSQL, SQLite
+                PostgreSQL, SQLite
             </p>
         </div>
 
@@ -79,8 +79,8 @@ export default function Skills() {
             Cloud & ML Infrastructure
           </h3>
             <p>
-                AWS, Microsoft Azure, Azure AI Fondry, Docker,
-                RunPod, Google Colab, Nvidia GPUs
+                AWS, Azure, Docker, Vercel,
+                RunPod,  Nvidia GPUs
             </p>
             </div>
         {/* Development & Collaboration */}
