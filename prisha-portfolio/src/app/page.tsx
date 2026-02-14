@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-400">
-          AI/ML Researcher · Computer Science & Mathematics · Rutgers University
+          AI/ML Researcher & Developer · Computer Science & Mathematics · Rutgers University
         </p>
 
         <div className="max-w-3xl text-gray-300 leading-relaxed space-y-4 text-lg">
@@ -36,7 +36,7 @@ export default function Home() {
       {/* Experiences */}
       <section className="space-y-10">
         <h2 className="text-3xl font-semibold text-white tracking-tight">
-          All Experiences
+          Research & Industry Experience
         </h2>
 
         <div className="space-y-8">
@@ -60,7 +60,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Interpretable Machine Learning
+                Interpretable ML
               </h3>
               <p className="text-sm text-gray-400">
                 The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Rutgers University
