@@ -27,14 +27,25 @@ export default function Research() {
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
           <li>
             Spearheading empirical research on whether real-world tabular datasets admit small,
-            accurate, and interpretable decision trees.
+            optimally accurate, and fully interpretable decision tree models.
           </li>
           <li>
-            Benchmarking SPLIT and LicketyRESPLIT against XGBoost
-            using evaluation metrics beyond accuracy.
+            Implementing and benchmarking SPLIT, GOSDT (with ThresholdGuessBinarizer),
+            RESPLIT, TREEFARMS, and LicketyRESPLIT against XGBoost using scikit-learn's classification report, 
+            confusion matrices, and runtime metrics.
           </li>
           <li>
-            Running large-scale experiments on Rutgers' Amarel HPC cluster.
+            Preprocessing continuous features via gradient-boosted threshold guessing
+            (30 to 13 binary predictors) to enable efficient optimal tree search.
+          </li>
+          <li>
+            Quantifying Rashomon set size (33 near-optimal trees) and analyzing structural
+            vs. predictive diversity under varying regularization strengths (λ).
+
+          </li>
+          <li>
+            Designing reproducible experimental pipelines for scalable execution on
+            Rutgers’ Amarel HPC cluster.
           </li>
         </ul>
       </section>
