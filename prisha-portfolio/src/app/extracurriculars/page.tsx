@@ -76,6 +76,24 @@ export default function extracurriculars() {
 
         <hr className="border-gray-800" />
 
+         {/* CS Department Volunteer */}
+        <div className="space-y-4">
+          <div>
+            <h2 className="text-2xl font-semibold text-white">
+              CS Department Volunteer — The College of New Jersey
+            </h2>
+            <p className="text-sm text-gray-500 mt-1 tracking-wide">
+              Sept 2024 – May 2025
+            </p>
+          </div>
+
+          <p className="text-gray-400 leading-relaxed">
+            Served as a representative for the department at key admissions events
+            and engaged with prospective and admitted students bysharing insights into the CS
+            program and collaborated with faculty to set up event spaces. 
+          </p>
+        </div>
+
         {/* Varsity Tennis */}
         <div className="space-y-4">
           <div>
