@@ -13,6 +13,41 @@ export default function Projects() {
       </div>
 
 
+      {/* GenreBlender */}
+      <section className="space-y-8 max-w-3xl">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">
+            GenreBlender
+          </h2>
+          <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            Generative AI Music Mixer & Classifier
+          </p>
+        </div>
+
+        <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+          <li>
+           Built a generative AI system that blends two music genres using a 
+           controllable slider (α ∈ [0,1]) and generates hybrid audio with Meta’s MusicGen.
+          </li>
+           Designed a clean ML pipeline on the GTZAN dataset, including feature selection, scaling, 
+           label encoding, and reproducible preprocessing for inference.
+          <li>
+           Trained a 4-layer PyTorch MLP (92% validation accuracy) using 
+           scikit-learn's GroupShuffleSplit to data leakage and 
+           to predict genre probabilities from audio features.
+          </li>
+           Developed a measurable genre-blending framework by comparing predicted probabilities against 
+           a weighted target distribution to quantify how well the blend worked
+           via Target = (α·A) + (1−α)·B. 
+          <li>
+           Built and deployed an interactive Streamlit web application enabling 
+           real-time genre blending, probabilistic evaluation, and 10-second AI-generated audio output.
+          </li>
+        </ul>
+      </section>
+
+      <hr className="border-gray-800" />
+
       {/* PocketRAG */}
       <section className="space-y-8 max-w-3xl">
         <div>
