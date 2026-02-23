@@ -11,8 +11,7 @@ export default function Projects() {
           spanning retrieval systems, geospatial modeling, and full-stack AI deployment.
         </p>
       </div>
-
-
+      
       {/* GenreBlender */}
       <section className="space-y-8 max-w-3xl">
         <div>
