@@ -25,25 +25,33 @@ export default function Projects() {
         </div>
 
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
-          <li>
-           Built a generative AI system that blends two music genres using a 
-           controllable slider (α ∈ [0,1]) and generates hybrid audio with Meta’s MusicGen.
-          </li>
-           Designed a clean ML pipeline on the GTZAN dataset, including feature selection, scaling, 
-           label encoding, and reproducible preprocessing for inference.
-          <li>
-           Trained a 4-layer PyTorch MLP (92% validation accuracy) using 
-           scikit-learn's GroupShuffleSplit to data leakage and 
-           to predict genre probabilities from audio features.
-          </li>
-           Developed a measurable genre-blending framework by comparing predicted probabilities against 
-           a weighted target distribution to quantify how well the blend worked
-           via Target = (α·A) + (1−α)·B. 
-          <li>
-           Built and deployed an interactive Streamlit web application enabling 
-           real-time genre blending, probabilistic evaluation, and 10-second AI-generated audio output.
-          </li>
-        </ul>
+  <li>
+    Built a generative AI system that blends two music genres using a 
+    controllable slider (α ∈ [0,1]) and generates hybrid audio with Meta’s MusicGen.
+  </li>
+
+  <li>
+    Designed a clean ML pipeline on the GTZAN dataset, including feature selection, 
+    scaling, label encoding, and reproducible preprocessing for inference.
+  </li>
+
+  <li>
+    Trained a 4-layer PyTorch MLP (92% validation accuracy) using 
+    scikit-learn’s GroupShuffleSplit to prevent data leakage and 
+    predict genre probabilities from audio features.
+  </li>
+
+  <li>
+    Developed a measurable genre-blending framework by comparing predicted probabilities 
+    against a weighted target distribution to quantify how well the blend worked 
+    via Target = (α·A) + (1−α)·B.
+  </li>
+
+  <li>
+    Built and deployed an interactive Streamlit web application enabling 
+    real-time genre blending, probabilistic evaluation, and 10-second AI-generated audio output.
+  </li>
+</ul>
       </section>
 
       <hr className="border-gray-800" />
