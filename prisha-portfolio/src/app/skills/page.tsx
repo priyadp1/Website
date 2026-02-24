@@ -13,7 +13,8 @@ export default function Skills() {
           </h3>
           <p>
             PyTorch, Transformers, Hugging Face, FAISS, LightGBM, XGBoost,
-            CNNs, scikit-learn, Kaggle, Temporal Fusion Transformers (TFT), Retrieval-Augmented Generation (RAG)
+            CNNs, OpenCV, scikit-learn, Kaggle, Multilayer Perceptron (MLP),
+            Temporal Fusion Transformers (TFT), Retrieval-Augmented Generation (RAG)
           </p>
         </div>
 
