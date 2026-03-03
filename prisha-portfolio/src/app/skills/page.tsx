@@ -33,7 +33,7 @@ export default function Skills() {
                 Backend
             </h3>
             <p>
-                Flask, REST APIs, FastAPI
+                Flask, REST APIs, FastAPI, Streamlit
             </p>
         </div>
         <div>
@@ -60,7 +60,7 @@ export default function Skills() {
             Research Concepts
           </h3>
             <p>
-                OpenAI APIs, Multi-Agent LLM Systems, Multimodal Chain-of-Thought (MMCoT)
+                OpenAI APIs, Multi-Agent LLM Systems, Multimodal Chain-of-Thought (MMCoT), Generative AI
             </p>
             </div>
 
