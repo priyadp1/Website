@@ -93,6 +93,8 @@ export default function extracurriculars() {
             program and collaborated with faculty to set up event spaces. 
           </p>
         </div>
+        
+       <hr className="border-gray-800" />
 
         {/* Varsity Tennis */}
         <div className="space-y-4">
