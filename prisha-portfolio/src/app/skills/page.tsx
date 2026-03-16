@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section id="skills" className="mt-24 scroll-mt-24">
+    <section id="skills" className="mt-0 scroll-mt-0 space-y-12">
       <h2 className="text-3xl font-semibold mb-12 tracking-tight">
         Technical Skills
       </h2>
