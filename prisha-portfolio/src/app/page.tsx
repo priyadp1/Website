@@ -16,7 +16,7 @@ export default function Home() {
           <p>
             I study <span className="text-white font-medium">multi-agent consensus formation</span>, 
             <span className="text-white font-medium"> multimodal machine learning</span>, and 
-            <span className="text-white font-medium"> interpretable AI</span>. 
+            <span className="text-white font-medium"> interpretable ML</span>. 
             My work investigates how structured reasoning and reliable behavior 
             emerge in large-scale models.
           </p>

@@ -18,7 +18,7 @@ export default function Publications() {
 
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            DynaStride: Dynamic Stride Windowing with Multimodal Chain-of-Thought
+            DynaStride: Dynamic Stride Windowing with MMCoT for Instructional Multi-Scene Captioning
           </h2>
 
           <p className="text-sm text-gray-500 mt-2 tracking-wide">

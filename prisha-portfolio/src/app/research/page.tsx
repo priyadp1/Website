@@ -137,6 +137,16 @@ export default function Research() {
             Automated batch processing pipelines to benchmark folding accuracy,
             energy scores, and runtime across thousands of RNA sequences.
           </li>
+          <li>
+            <a
+              href="/RNAFoldingResearch.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              RNA Folding Research Summary
+            </a>
+          </li>
         </ul>
       </section>
 
