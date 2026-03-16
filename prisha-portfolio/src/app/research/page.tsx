@@ -31,17 +31,16 @@ export default function Research() {
           </li>
           <li>
             Implementing and benchmarking SPLIT, GOSDT (with ThresholdGuessBinarizer),
-            RESPLIT, TREEFARMS, and LicketyRESPLIT against XGBoost using scikit-learn's classification report, 
+            RESPLIT, TREEFARMS, LicketySPLIT, and LicketyRESPLIT against XGBoost using scikit-learn's classification report, 
             confusion matrices, and runtime metrics.
           </li>
           <li>
-            Preprocessing continuous features via gradient-boosted threshold guessing
-            (30 to 13 binary predictors) to enable efficient optimal tree search.
+            Preprocessing continuous features via ThresholdGuessBinarizer
+            to enable efficient optimal tree search.
           </li>
           <li>
             Quantifying Rashomon set size (33 near-optimal trees) and analyzing structural
-            vs. predictive diversity under varying regularization strengths (λ).
-
+            vs. predictive diversity under varying regularization strengths (λ) and Rashomon multipliities.
           </li>
           <li>
             Designing reproducible experimental pipelines for scalable execution on
@@ -80,26 +79,32 @@ export default function Research() {
                 Designed evaluation frameworks for BLEU-4, METEOR, CIDEr,
                 BERTScore, SBERT similarity, and temporal metrics.
               </li>
+                Achieved +17% CIDEr over GPT-4o and +14% over VLLaMA-3 on the YouCook2 dataset.
+              <li>
+                Accepted to NeurIPS 2025 (7HVU Workshop) and AAAI 2026 (AI4EDU Workshop).
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold text-white">
-              Project 2: Multi-Agent LLM Deliberation & Consensus Dynamics
+              Project 2: Multi-Agent Deliberation & Consensus Dynamics
             </h3>
             <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
               <li>
                 Designing a multi-agent LLM system to analyze how consensus
-                emerges on subjective global opinion questions.
+                emerges on subjective global opinion questions and datasets with ground truth labels.
               </li>
               <li>
-                Leveraging GlobalOpinionsQA and OpinionsQA datasets
-                for structured multi-round deliberation.
+                Leveraging GlobalOpinionsQA, OpinionsQA, Antropic's Persona, and Humanity's Last Exam
+                 datasets for structured multi-round deliberation.
               </li>
               <li>
                 Building reproducible experimental pipelines using GPT-4.1,
                 DeepSeek R1, Grok 3, and Llama-3.3-70B-Instruct.
               </li>
+                Conducting a variety of experiments including: system prompt engineering, 
+                answer rotation, and prompt engineering for consensus facilitation.
               <li>
                 Creating visualizations of results with pie charts,
                 bar charts, and line plots via Matplotlib.
