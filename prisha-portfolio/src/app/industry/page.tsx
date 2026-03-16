@@ -1,6 +1,6 @@
 export default function IndustryExperience() {
   return (
-    <div className="space-y-24">
+    <div className="space-y-16">
 
       <div className="space-y-6">
         <h1 className="text-5xl font-bold text-white">

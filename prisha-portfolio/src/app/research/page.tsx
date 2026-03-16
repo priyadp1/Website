@@ -1,6 +1,6 @@
 export default function Research() {
   return (
-    <div className="space-y-24">
+    <div className="space-y-16">
 
       <div className="space-y-6">
         <h1 className="text-5xl font-bold text-white">
@@ -142,7 +142,7 @@ export default function Research() {
               href="/RNAFoldingResearch.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white transition-colors"
+              className="text-blue-400 hover:text-blue-300 transition-colors"
             >
               RNA Folding Research Summary
             </a>

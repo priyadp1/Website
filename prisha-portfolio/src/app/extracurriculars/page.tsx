@@ -1,6 +1,6 @@
 export default function extracurriculars() {
   return (
-    <div className="space-y-24">
+    <div className="space-y-16">
 
       {/* Header */}
       <div className="space-y-6">
