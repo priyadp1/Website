@@ -92,7 +92,7 @@ export default function Research() {
             </h3>
             <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
               <li>
-                Designing a multi-agent LLM system to analyze how consensus
+                Designing a multi-agent system to analyze how consensus
                 emerges on subjective global opinion questions and datasets with ground truth labels.
               </li>
               <li>
