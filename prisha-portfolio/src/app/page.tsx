@@ -179,8 +179,8 @@ export default function Home() {
         </h2>
         <p className="text-gray-300">
           I'm always open to discussing research ideas, industry opportunities, or potential collaborations. 
-          Feel free to reach out via email at <a href="mailto:prishariya31@gmail.com" className="text-blue-400 hover:underline">
-            prisha.priyadashini@gmail.com
+          Feel free to reach out via email at <a href="mailto:prishapriya31@gmail.com" className="text-blue-400 hover:underline">
+            prishapriya31@gmail.com
           </a>
         </p>
       </section>
