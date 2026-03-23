@@ -27,26 +27,38 @@ export default function Research() {
 
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
           <li>
-            Spearheading empirical research on whether real-world tabular datasets admit small,
-            optimally accurate, and fully interpretable decision tree models.
+            Investigating whether real-world tabular datasets admit small, interpretable decision tree models 
+            that match the predictive performance of complex black-box models.
           </li>
           <li>
-            Implementing and benchmarking SPLIT, GOSDT (with ThresholdGuessBinarizer),
-            RESPLIT, TREEFARMS, LicketySPLIT, and LicketyRESPLIT against XGBoost using scikit-learn's classification report, 
-            confusion matrices, ensemble accuracy, and runtime metrics.
+            This work explores the Rashomon effect in decision trees, demonstrating that many 
+            structurally distinct models can achieve near-identical accuracy 
+            while differing significantly in interpretability.
           </li>
           <li>
-            Preprocessing continuous features via ThresholdGuessBinarizer 
-            to binarize data and enable optimal tree search, 
-            while analyzing the impact of binarization on model performance and interpretability.
+            Implementing and benchmarking optimal and near-optimal tree algorithms (SPLIT, GOSDT with ThresholdGuessBinarizer,
+             RESPLIT, LicketySPLIT/RESPLIT, TREEFARMS) against 
+             XGBoost across diverse real-world datasets.
           </li>
           <li>
-            Quantifying Rashomon set size (33 near-optimal trees) and analyzing structural
-            vs. predictive diversity under varying regularization strengths (λ) and Rashomon multipliities.
+            Quantifying performance–interpretability tradeoffs using accuracy, 
+            class-specific recall, macro F1, tree depth, leaf count (log-scale), and Rashomon set size.
+          </li>
+          <li>
+            Analyzing how preprocessing (e.g., threshold-based binarization) and dataset properties
+             (e.g., class imbalance) influence model structure, solution multiplicity, and predictive behavior.
           </li>
           <li>
             Designing reproducible experimental pipelines for scalable execution on
             Rutgers’ Amarel HPC cluster.
+          </li>
+          <li>
+            Empirically demonstrating that large Rashomon sets correspond to multiple equally performant 
+            but structurally diverse decision trees, highlighting the non-uniqueness of interpretable models.
+          </li>
+          <li>
+            Designing reproducible experimental pipelines and 
+            executing large-scale experiments on Rutgers’ Amarel HPC cluster.
           </li>
         </ul>
       </section>
@@ -60,6 +72,9 @@ export default function Research() {
           <h2 className="text-2xl font-semibold text-white">
             AI Researcher — Algoverse
           </h2>
+          <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            Multimodal ML & Multiagent Deliberation
+          </p>
         </div>
 
         <div className="space-y-6">
@@ -123,9 +138,12 @@ export default function Research() {
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            Algorithms Researcher — The College of New Jersey (Research Shadow)
+            Algorithms Research Shadow — The College of New Jersey (Research Shadow)
           </h2>
         </div>
+        <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            Sparse Dynamic Programming for RNA Folding
+          </p>
 
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
           <li>

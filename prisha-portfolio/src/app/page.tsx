@@ -120,7 +120,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Algorithms Researcher --- RNA Folding & Dynamic Programming
+                Algorithms Research Shadow --- RNA Folding & Dynamic Programming
               </h3>
               <p className="text-sm text-gray-400">
                 The College of New Jersey · Part-time
