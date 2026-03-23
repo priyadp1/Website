@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-400">
-          AI/ML Researcher & Developer · Computer Science & Mathematics · Rutgers University -- New Brunswick
+          AI/ML Researcher & Engineer · Computer Science & Mathematics · Rutgers University -- New Brunswick
         </p>
 
         <div className="max-w-3xl text-gray-300 leading-relaxed space-y-4 text-lg">
@@ -171,6 +171,18 @@ export default function Home() {
           </div>
 
         </div>
+      </section>
+
+      <section className="space-y-8">
+        <h2 className="text-3xl font-semibold text-white tracking-tight">
+          Contact Me
+        </h2>
+        <p className="text-gray-300">
+          I'm always open to discussing research ideas, industry opportunities, or potential collaborations. 
+          Feel free to reach out via email at <a href="mailto:prisha.priyadashini@gmail.com" className="text-blue-400 hover:underline">
+            prisha.priyadashini@gmail.com
+          </a>
+        </p>
       </section>
 
     </div>
