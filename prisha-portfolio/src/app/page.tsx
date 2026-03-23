@@ -48,7 +48,7 @@ export default function Home() {
                 Machine Learning Intern (Incoming) 
               </h3>
               <p className="text-sm text-gray-400">
-                Regeneron · QA Validations & Operations
+                Regeneron · QA Validations & Operations · Internship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -63,7 +63,7 @@ export default function Home() {
                 Machine Learning Research Extern (Team Lead) --- Interpretable ML & Model Multiplicity
               </h3>
               <p className="text-sm text-gray-400">
-                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Rutgers University
+                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Rutgers University · Externship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -78,7 +78,7 @@ export default function Home() {
                 AI Associate Developer --- Geospatial AI & ML
               </h3>
               <p className="text-sm text-gray-400">
-                Insurity · Research & Development · SpatialKey Team
+                Insurity · Internship · Research & Development · SpatialKey Team · Internship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -93,7 +93,7 @@ export default function Home() {
                 AI Researcher --- Multi-Agent LLM Deliberation & Consensus Dynamics
               </h3>
               <p className="text-sm text-gray-400">
-                Algoverse AI Research
+                Algoverse AI Research · Internship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -108,7 +108,7 @@ export default function Home() {
                 AI Researcher --- Multimodal Scene Captioning Systems
               </h3>
               <p className="text-sm text-gray-400">
-                Algoverse AI Research · NeurIPS 2025 (7HVU Oral) · AAAI 2026 (AI4EDU)
+                Algoverse AI Research · NeurIPS 2025 (7HVU Oral) · AAAI 2026 (AI4EDU) · Internship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -123,7 +123,7 @@ export default function Home() {
                 Algorithms Researcher --- RNA Folding & Dynamic Programming
               </h3>
               <p className="text-sm text-gray-400">
-                The College of New Jersey
+                The College of New Jersey · Part-time
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">

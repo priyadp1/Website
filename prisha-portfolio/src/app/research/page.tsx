@@ -7,8 +7,9 @@ export default function Research() {
           Research
         </h1>
         <p className="text-gray-500 max-w-2xl">
-          My work focuses on multi-agent reasoning systems, interpretable machine learning,
-          and large-scale experimental evaluation across real-world datasets.
+          My research focuses on multi-agent reasoning systems, multimodal ML, interpretable ML,
+          and large-scale experimental evaluation across real-world datasets. I have not only contributed to research projects in these areas,
+           but also designed and executed large-scale experiments, built reproducible pipelines, and led research teams.
         </p>
       </div>
 
@@ -32,11 +33,12 @@ export default function Research() {
           <li>
             Implementing and benchmarking SPLIT, GOSDT (with ThresholdGuessBinarizer),
             RESPLIT, TREEFARMS, LicketySPLIT, and LicketyRESPLIT against XGBoost using scikit-learn's classification report, 
-            confusion matrices, and runtime metrics.
+            confusion matrices, ensemble accuracy, and runtime metrics.
           </li>
           <li>
-            Preprocessing continuous features via ThresholdGuessBinarizer
-            to enable efficient optimal tree search.
+            Preprocessing continuous features via ThresholdGuessBinarizer 
+            to binarize data and enable optimal tree search, 
+            while analyzing the impact of binarization on model performance and interpretability.
           </li>
           <li>
             Quantifying Rashomon set size (33 near-optimal trees) and analyzing structural
@@ -63,7 +65,7 @@ export default function Research() {
         <div className="space-y-6">
           <div>
             <h3 className="text-lg font-semibold text-white">
-              Project 1: DynaStride: Dynamic Stride Windowing with MMCoT
+              Project 1: DynaStride: Dynamic Stride Windowing with MMCoT (Second Author)
             </h3>
             <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
               <li>
@@ -72,7 +74,7 @@ export default function Research() {
                 chain-of-thought reasoning (MMCoT).
               </li>
               <li>
-                Worked with Qwen2.5, Qwen3, MiniLM, and subcaption aggregation
+                Implemented Qwen2.5, Qwen3, MiniLM, and subcaption aggregation
                 for temporally coherent caption generation.
               </li>
               <li>
@@ -88,7 +90,7 @@ export default function Research() {
 
           <div>
             <h3 className="text-lg font-semibold text-white">
-              Project 2: Multi-Agent Deliberation & Consensus Dynamics
+              Project 2: Multi-Agent Deliberation & Consensus Dynamics (Solo Author)
             </h3>
             <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
               <li>
@@ -101,7 +103,7 @@ export default function Research() {
               </li>
               <li>
                 Building reproducible experimental pipelines using GPT-4.1,
-                DeepSeek R1, Grok 3, and Llama-3.3-70B-Instruct.
+                DeepSeek R1, grok-3, and Llama-3.3-70B-Instruct.
               </li>
                 Conducting a variety of experiments including: system prompt engineering, 
                 answer rotation, and prompt engineering for consensus facilitation.
@@ -121,7 +123,7 @@ export default function Research() {
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            Algorithms Researcher — The College of New Jersey
+            Algorithms Researcher — The College of New Jersey (Research Shadow)
           </h2>
         </div>
 
