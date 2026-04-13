@@ -12,6 +12,47 @@ export default function Projects() {
         </p>
       </div>
       
+      {/*Knowledge Distillation Project */}
+      <section className="space-y-8 max-w-3xl">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">
+  Knowledge Distillation for Reasoning
+</h2>
+<p className="text-sm text-gray-500 mt-1 tracking-wide">
+  Distilling structured reasoning behaviors from large LLMs into smaller models
+</p>
+
+<ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+  <li>
+    Designed and implemented an offline knowledge distillation pipeline combining 
+    logit-level and sequence-level supervision to transfer reasoning behaviors 
+    from large, teacher LLMs to smaller student models.
+  </li>
+  <li>
+    Leveraged chain-of-thought (CoT) reasoning traces from teacher models to guide 
+    student learning, enabling the transfer of intermediate reasoning steps 
+    rather than only final outputs.
+  </li>
+  <li>
+    Integrated LoRA-based fine-tuning to efficiently adapt student models while preserving 
+    computational efficiency and scalability.
+  </li>
+  <li>
+    Evaluated reasoning performance on TheoremQA and SciBench across mathematical, 
+    scientific, and multi-step reasoning tasks.
+  </li>
+  <li>
+    Demonstrated that student models can approximate teacher reasoning trajectories, 
+    achieving strong alignment with teacher outputs as measured by accuracy and BERTScore.
+  </li>
+</ul>
+
+</div>
+      </section>
+      <hr className="border-gray-800" />
+
+
+
       {/* GenreBlender */}
       <section className="space-y-8 max-w-3xl">
         <div>

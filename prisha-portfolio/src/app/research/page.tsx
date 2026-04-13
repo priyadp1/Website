@@ -8,8 +8,10 @@ export default function Research() {
         </h1>
         <p className="text-gray-500 max-w-2xl">
           My research focuses on multi-agent reasoning systems, multimodal ML, interpretable ML,
-          and large-scale experimental evaluation across real-world datasets. I have not only contributed to research projects in these areas,
-           but also designed and executed large-scale experiments, built reproducible pipelines, and led research teams.
+          and large-scale experimental evaluation across real-world datasets. 
+          I have not only contributed to research projects in these areas,
+          but also designed and executed large-scale experiments,
+          built reproducible pipelines, and led research teams.
         </p>
       </div>
 
@@ -18,7 +20,7 @@ export default function Research() {
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            ML Research Extern (Team Lead) — DIMACS
+            Lead ML Research Extern — DIMACS / Rutgers MBS Exchange
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
             Interpretable ML & Model Multiplicity
@@ -27,8 +29,10 @@ export default function Research() {
 
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
           <li>
-            Investigating whether real-world tabular datasets admit small, interpretable decision tree models 
-            that match the predictive performance of complex black-box models.
+            Leading an empirical study under Dr. Linda Ness on interpretable decision trees (SPLIT, GOSDT, LicketySPLIT, LicketyRESPLIT)
+            against 3 boosting models (XGBoost, LightGBM, CatBoost) across 6 real-world datasets examining
+            conditions where simple models can achieve near-identical accuracy to complex models, and 
+            how dataset properties influence model structure and multiplicity.
           </li>
           <li>
             This work explores the Rashomon effect in decision trees, demonstrating that many 
@@ -36,21 +40,11 @@ export default function Research() {
             while differing significantly in interpretability.
           </li>
           <li>
-            Implementing and benchmarking optimal and near-optimal tree algorithms (SPLIT, GOSDT with ThresholdGuessBinarizer,
-             RESPLIT, LicketySPLIT/RESPLIT, TREEFARMS) against 
-             XGBoost across diverse real-world datasets.
-          </li>
-          <li>
             Quantifying performance–interpretability tradeoffs using accuracy, 
             class-specific recall, macro F1, tree depth, leaf count (log-scale), and Rashomon set size.
           </li>
           <li>
-            Analyzing how preprocessing (e.g., threshold-based binarization) and dataset properties
-             (e.g., class imbalance) influence model structure, solution multiplicity, and predictive behavior.
-          </li>
-          <li>
-            Designing reproducible experimental pipelines for scalable execution on
-            Rutgers’ Amarel HPC cluster.
+            Analyzing how preprocessing (SMOTE, TGB) reshapes Rashomon set size and model interpretability.
           </li>
           <li>
             Empirically demonstrating that large Rashomon sets correspond to multiple equally performant 
@@ -73,7 +67,7 @@ export default function Research() {
             AI Researcher — Algoverse
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            Multimodal ML & Multiagent Deliberation
+            Multimodal ML & Scene Captioning
           </p>
         </div>
 
@@ -105,40 +99,43 @@ export default function Research() {
 
           <div>
             <h3 className="text-lg font-semibold text-white">
-              Project 2: Multi-Agent Deliberation & Consensus Dynamics (Solo Author)
-            </h3>
-            <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
-              <li>
-                Designing a multi-agent system to analyze how consensus
-                emerges on subjective global opinion questions and datasets with ground truth labels.
-              </li>
-              <li>
-                Leveraging GlobalOpinionsQA, OpinionsQA, Antropic's Persona, and Humanity's Last Exam
-                 datasets for structured multi-round deliberation.
-              </li>
-              <li>
-                Building reproducible experimental pipelines using GPT-4.1,
-                DeepSeek R1, grok-3, and Llama-3.3-70B-Instruct.
-              </li>
-                Conducting a variety of experiments including: system prompt engineering, 
-                answer rotation, and prompt engineering for consensus facilitation.
-              <li>
-                Creating visualizations of results with pie charts,
-                bar charts, and line plots via Matplotlib.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+  Project 2: Multi-Agent Deliberation & Consensus Dynamics (First Author)
+</h3>
+<ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+  <li>
+    Designed a multi-agent LLM framework to study how consensus emerges 
+    across subjective and objective tasks, showing that convergence 
+    is often driven by model-to-model deference rather than independent reasoning.
+  </li>
+  <li>
+    Conducted large-scale experiments on GlobalOpinionsQA, Anthropic Persona-Written Evals, and Humanity’s Last Exam 
+    using 20-round deliberation with named and anonymized GPT-4.1 agents.
+  </li>
+  <li>
+    Developed a rotation-based experimental framework to 
+    disentangle the effects of model identity and answer quality in multi-agent interactions.
+  </li>
+  <li>
+    Introduced quantitative metrics for interaction dynamics, 
+    including inter-round disagreement and directional model deference.
+  </li>
+  <li>
+    Demonstrated that system-level interventions (e.g., prompting strategies) 
+    can significantly alter or disrupt consensus formation.
+  </li>
+</ul>
+</div>
+</div>
+</section>
 
-      <hr className="border-gray-800" />
+   <hr className="border-gray-800" />
 
 
       {/* TCNJ */}
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            Algorithms Research Shadow — The College of New Jersey (Research Shadow)
+            Algorithms Research Shadow — The College of New Jersey
           </h2>
         </div>
         <p className="text-sm text-gray-500 mt-1 tracking-wide">
