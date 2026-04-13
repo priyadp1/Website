@@ -15,39 +15,47 @@ export default function Projects() {
       {/*Knowledge Distillation Project */}
       <section className="space-y-8 max-w-3xl">
         <div>
-          <h2 className="text-2xl font-semibold text-white">
-  Knowledge Distillation for Reasoning
+        <h2 className="text-2xl font-semibold text-white">
+  Knowledge Distillation for Reasoning in MoE and Dense LLMs
 </h2>
 <p className="text-sm text-gray-500 mt-1 tracking-wide">
-  Distilling structured reasoning behaviors from large LLMs into smaller models
+  Efficiently transferring reasoning from large LLMs to smaller models using parameter-efficient distillation
 </p>
 
 <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
   <li>
-    Designed and implemented an offline knowledge distillation pipeline combining 
-    logit-level and sequence-level supervision to transfer reasoning behaviors 
-    from large, teacher LLMs to smaller student models.
+    Developed an offline knowledge distillation framework combining sequence-level 
+    and logit-level distillation to transfer reasoning capabilities 
+    from large teacher models to smaller student models.
   </li>
   <li>
-    Leveraged chain-of-thought (CoT) reasoning traces from teacher models to guide 
-    student learning, enabling the transfer of intermediate reasoning steps 
-    rather than only final outputs.
+    Leveraged teacher-generated chain-of-thought (CoT) reasoning traces and trained 
+    student models via supervised fine-tuning to replicate both intermediate reasoning 
+    steps and final answers.
   </li>
   <li>
-    Integrated LoRA-based fine-tuning to efficiently adapt student models while preserving 
-    computational efficiency and scalability.
+    Applied Low-Rank Adaptation (LoRA) to enable parameter-efficient distillation, 
+    updating less than 1% of model weights while preserving performance and reducing 
+    compute requirements.
   </li>
   <li>
-    Evaluated reasoning performance on TheoremQA and SciBench across mathematical, 
-    scientific, and multi-step reasoning tasks.
+    Implemented logit-based distillation using temperature-scaled softmax and KL divergence 
+    loss to align student token distributions with teacher outputs via top-k probability reconstruction.
   </li>
   <li>
-    Demonstrated that student models can approximate teacher reasoning trajectories, 
-    achieving strong alignment with teacher outputs as measured by accuracy and BERTScore.
+    Built an offline pipeline to extract teacher logits and map them to student token spaces, 
+    enabling scalable training without direct API dependency.
+  </li>
+  <li>
+    Evaluated performance on SciBench and TheoremQA across multi-domain reasoning tasks, 
+    using accuracy and BERTScore to measure both correctness and reasoning alignment.
+  </li>
+  <li>
+    Demonstrated that small LLMs can approximate both the reasoning process and output 
+    distributions of larger models with minimal parameter updates.
   </li>
 </ul>
-
-</div>
+        </div>
       </section>
       <hr className="border-gray-800" />
 
