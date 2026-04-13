@@ -60,10 +60,10 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Machine Learning Research Extern (Team Lead) --- Interpretable ML & Model Multiplicity
+                Lead Machine Learning Research Extern --- Interpretable ML & Model Multiplicity
               </h3>
               <p className="text-sm text-gray-400">
-                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Rutgers University · Externship
+                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) / Rutgers MB Exchange · Rutgers University · Externship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
