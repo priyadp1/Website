@@ -81,7 +81,7 @@ export default function Research() {
       <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
         <li>
           Developed a multi-agent LLM framework to investigate how consensus emerges 
-          across subjective and objective tasks, identifying <span className="text-white font-medium">model-to-model deference</span> 
+          across subjective and objective tasks, identifying <span className="text-white font-medium"> model-to-model deference </span> 
           as a primary driver of convergence rather than independent reasoning.
         </li>
         <li>
@@ -90,7 +90,7 @@ export default function Research() {
           using named and anonymized agents from the GPT-4.1 family (GPT-4.1, GPT-4.1-nano, GPT-4.1-mini).
         </li>
         <li>
-          Introduced a <span className="text-white font-medium">rotation-based experimental paradigm</span> 
+          Introduced a <span className="text-white font-medium"> rotation-based experimental paradigm </span> 
           to disentangle the effects of model identity vs. answer quality, 
           demonstrating that response quality plays a stronger role in deference dynamics.
         </li>
@@ -128,12 +128,12 @@ export default function Research() {
           BERTScore, SBERT similarity, and temporal alignment metrics.
         </li>
         <li>
-          Achieved <span className="text-white font-medium">+17% CIDEr over GPT-4o 
-            and +14% over VideoLLaMA-3</span> on the YouCook2 dataset.
+          Achieved <span className="text-white font-medium"> +17% CIDEr over GPT-4o 
+            and +14% over VideoLLaMA-3 </span> on the YouCook2 dataset.
         </li>
         <li>
-          Accepted to <span className="text-white font-medium">NeurIPS 2025 (7HVU Workshop, Oral)</span> 
-          and <span className="text-white font-medium">AAAI 2026 (AI4EDU Workshop)</span>.
+          Accepted to <span className="text-white font-medium"> NeurIPS 2025 (7HVU Workshop, Oral) </span> 
+          and <span className="text-white font-medium"> AAAI 2026 (AI4EDU Workshop) </span>.
         </li>
       </ul>
     </div>
