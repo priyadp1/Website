@@ -62,70 +62,83 @@ export default function Research() {
 
       {/* Algoverse */}
       <section className="space-y-10 max-w-3xl">
-        <div>
-          <h2 className="text-2xl font-semibold text-white">
-            AI Researcher — Algoverse
-          </h2>
-          <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            Multimodal ML & Scene Captioning
-          </p>
-        </div>
+  <div>
+    <h2 className="text-2xl font-semibold text-white">
+      AI Researcher — Algoverse
+    </h2>
+    <p className="text-sm text-gray-500 mt-1 tracking-wide">
+      Multi-Agent Reasoning & Multimodal Machine Learning
+    </p>
+  </div>
 
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-lg font-semibold text-white">
-              Project 1: DynaStride: Dynamic Stride Windowing with MMCoT (Second Author)
-            </h3>
-            <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
-              <li>
-                Contributed to a hierarchical scene-captioning pipeline
-                integrating dynamic stride window selection and multimodal
-                chain-of-thought reasoning (MMCoT).
-              </li>
-              <li>
-                Implemented Qwen2.5, Qwen3, MiniLM, and subcaption aggregation
-                for temporally coherent caption generation.
-              </li>
-              <li>
-                Designed evaluation frameworks for BLEU-4, METEOR, CIDEr,
-                BERTScore, SBERT similarity, and temporal metrics.
-              </li>
-                Achieved +17% CIDEr over GPT-4o and +14% over VLLaMA-3 on the YouCook2 dataset.
-              <li>
-                Accepted to NeurIPS 2025 (7HVU Workshop) and AAAI 2026 (AI4EDU Workshop).
-              </li>
-            </ul>
-          </div>
+  <div className="space-y-8">
 
-          <div>
-            <h3 className="text-lg font-semibold text-white">
-  Project 2: Multi-Agent Deliberation & Consensus Dynamics (First Author)
-</h3>
-<ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
-  <li>
-    Designed a multi-agent LLM framework to study how consensus emerges 
-    across subjective and objective tasks, showing that convergence 
-    is often driven by model-to-model deference rather than independent reasoning.
-  </li>
-  <li>
-    Conducted large-scale experiments on GlobalOpinionsQA, Anthropic Persona-Written Evals, and Humanity’s Last Exam 
-    using 20-round deliberation with named and anonymized GPT-4.1 agents.
-  </li>
-  <li>
-    Developed a rotation-based experimental framework to 
-    disentangle the effects of model identity and answer quality in multi-agent interactions.
-  </li>
-  <li>
-    Introduced quantitative metrics for interaction dynamics, 
-    including inter-round disagreement and directional model deference.
-  </li>
-  <li>
-    Demonstrated that system-level interventions (e.g., prompting strategies) 
-    can significantly alter or disrupt consensus formation.
-  </li>
-</ul>
-</div>
-</div>
+    {/* Project 1 — STRONGEST FIRST */}
+    <div>
+      <h3 className="text-lg font-semibold text-white">
+        Multi-Agent Deliberation & Consensus Dynamics (First Author, Solo)
+      </h3>
+      <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+        <li>
+          Developed a multi-agent LLM framework to investigate how consensus emerges 
+          across subjective and objective tasks, identifying <span className="text-white font-medium">model-to-model deference</span> 
+          as a primary driver of convergence rather than independent reasoning.
+        </li>
+        <li>
+          Designed and executed large-scale 20-round deliberation experiments across 
+          GlobalOpinionsQA, Anthropic Persona-Written Evals, and Humanity’s Last Exam 
+          using named and anonymized agents from the GPT-4.1 family (GPT-4.1, GPT-4.1-nano, GPT-4.1-mini).
+        </li>
+        <li>
+          Introduced a <span className="text-white font-medium">rotation-based experimental paradigm</span> 
+          to disentangle the effects of model identity vs. answer quality, 
+          demonstrating that response quality plays a stronger role in deference dynamics.
+        </li>
+        <li>
+          Formalized quantitative metrics for multi-agent interaction, including inter-round disagreement, 
+          pairwise disagreement, and directional model deference.
+        </li>
+        <li>
+          Showed that system-level interventions (e.g., prompting strategies) can 
+          significantly alter or destabilize consensus formation.
+        </li>
+        <li>
+          Paper in preparation for submission to ICML workshops 
+          (Pluralistic Alignment, AI4Good, Epistemic Intelligence in ML).
+        </li>
+      </ul>
+    </div>
+
+    {/* Project 2 */}
+    <div>
+      <h3 className="text-lg font-semibold text-white">
+        DynaStride: Dynamic Stride Windowing with MMCoT (Second Author)
+      </h3>
+      <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+        <li>
+          Contributed to a hierarchical video captioning pipeline combining dynamic stride window selection 
+          with multimodal chain-of-thought reasoning (MMCoT) for temporally coherent scene understanding.
+        </li>
+        <li>
+          Implemented and integrated Qwen2.5, Qwen3, and MiniLM models with 
+          subcaption aggregation to improve long-range temporal consistency.
+        </li>
+        <li>
+          Designed a comprehensive evaluation framework spanning BLEU-4, METEOR, CIDEr, 
+          BERTScore, SBERT similarity, and temporal alignment metrics.
+        </li>
+        <li>
+          Achieved <span className="text-white font-medium">+17% CIDEr over GPT-4o 
+            and +14% over VideoLLaMA-3</span> on the YouCook2 dataset.
+        </li>
+        <li>
+          Accepted to <span className="text-white font-medium">NeurIPS 2025 (7HVU Workshop, Oral)</span> 
+          and <span className="text-white font-medium">AAAI 2026 (AI4EDU Workshop)</span>.
+        </li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 
    <hr className="border-gray-800" />

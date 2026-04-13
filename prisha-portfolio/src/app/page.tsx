@@ -63,7 +63,7 @@ export default function Home() {
                 Lead Machine Learning Research Extern --- Interpretable ML & Model Multiplicity
               </h3>
               <p className="text-sm text-gray-400">
-                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) / Rutgers MB Exchange · Rutgers University · Externship
+                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) / Rutgers MBS Exchange · Externship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
