@@ -81,7 +81,7 @@ export default function Research() {
       <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
         <li>
           Developed a multi-agent LLM framework to investigate how consensus emerges 
-          across subjective and objective tasks, identifying <span className="text-white font-medium"> model-to-model deference </span> 
+          across subjective and objective tasks, identifying model-to-model deference 
           as a primary driver of convergence rather than independent reasoning.
         </li>
         <li>
@@ -90,7 +90,7 @@ export default function Research() {
           using named and anonymized agents from the GPT-4.1 family (GPT-4.1, GPT-4.1-nano, GPT-4.1-mini).
         </li>
         <li>
-          Introduced a <span className="text-white font-medium"> rotation-based experimental paradigm </span> 
+          Introduced a rotation-based experimental paradigm 
           to disentangle the effects of model identity vs. answer quality, 
           demonstrating that response quality plays a stronger role in deference dynamics.
         </li>
