@@ -43,12 +43,12 @@ export default function Navbar() {
           <div className="h-4 w-px bg-gray-700" />
 
           <a
-            href="/Prisha Priyadarshini Resume.pdf"
+            href="/Prisha Priyadarshini CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"
           >
-            Resume
+            CV
           </a>
 
           <a

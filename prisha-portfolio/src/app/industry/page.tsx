@@ -33,6 +33,25 @@ export default function IndustryExperience() {
 
       <hr className="border-gray-800" />
 
+      <section className="space-y-8 max-w-3xl">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">
+            AI/ML Open Source Contributor — DeepChem (Google Summer of Code)
+          </h2>
+          <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            Summer 2026
+          </p>
+        </div>
+
+        <p className="text-gray-400 leading-relaxed">
+          Contributing to DeepChem, an open-source library for deep learning in drug discovery and chemistry, 
+          as part of Google Summer of Code. Focusing on integrating Open Language Models (OLMo) as large as 7B parameters,
+          enabling advanced reasoning and interpretability for chemical datasets.
+        </p>
+      </section>
+
+      <hr className="border-gray-800" />
+
 
       {/* Insurity */}
       <section className="space-y-10 max-w-3xl">

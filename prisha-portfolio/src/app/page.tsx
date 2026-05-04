@@ -56,6 +56,20 @@ export default function Home() {
             </span>
           </div>
 
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                AI/ML Open Source Contributor (DeepChem) 
+              </h3>
+              <p className="text-sm text-gray-400">
+                Google Summer of Code · DeepChem
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              May 2026
+            </span>
+          </div>
+
           {/* DIMACS */}
           <div className="flex justify-between items-start">
             <div>
