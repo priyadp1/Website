@@ -20,7 +20,7 @@ export default function IndustryExperience() {
             Incoming ML Intern — Regeneron
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            Summer 2026
+            May 2026
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export default function IndustryExperience() {
             AI/ML Open Source Contributor — DeepChem (Google Summer of Code)
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            Summer 2026
+            May 2026
           </p>
         </div>
 

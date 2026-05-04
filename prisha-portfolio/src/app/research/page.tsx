@@ -29,30 +29,31 @@ export default function Research() {
 
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
           <li>
-            Leading an empirical study under Dr. Linda Ness on interpretable decision trees (SPLIT, GOSDT, LicketySPLIT, LicketyRESPLIT)
+            Lead an empirical study under Dr. Linda Ness on interpretable decision trees (SPLIT, GOSDT, LicketySPLIT, LicketyRESPLIT)
             against 3 boosting models (XGBoost, LightGBM, CatBoost) across 6 real-world datasets examining
             conditions where simple models can achieve near-identical accuracy to complex models, and 
             how dataset properties influence model structure and multiplicity.
           </li>
           <li>
-            This work explores the Rashomon effect in decision trees, demonstrating that many 
-            structurally distinct models can achieve near-identical accuracy 
-            while differing significantly in interpretability.
+            Deemonstrated that binarzing variables via ThresholdGuessBinarizer eliminates the performance 
+            gap between decision trees and boosting models, while preserving interpretability.
           </li>
           <li>
-            Quantifying performance–interpretability tradeoffs using accuracy, 
+            Quantified performance–interpretability tradeoffs using accuracy, 
             class-specific recall, macro F1, tree depth, leaf count (log-scale), and Rashomon set size.
           </li>
           <li>
-            Analyzing how preprocessing (SMOTE, TGB) reshapes Rashomon set size and model interpretability.
+            Analyzed that using preprocessing techniques such as SMOTE reshapes the Rashomon set, 
+            but doesn't improve prediction performance indicating that there 
+            isn't a correlation between Rashomon set size and prediction performance.
           </li>
           <li>
-            Empirically demonstrating that large Rashomon sets correspond to multiple equally performant 
+            Empirically demonstrated that large Rashomon sets correspond to multiple equally performant 
             but structurally diverse decision trees, highlighting the non-uniqueness of interpretable models.
           </li>
           <li>
-            Designing reproducible experimental pipelines and 
-            executing large-scale experiments on Rutgers’ Amarel HPC cluster.
+            Conducted a parameter sweep on ThresholdGuessBinarizer showing that MAX_DEPTH is the dominant 
+            driver for Rashomon set growth, but across all settings, performance doesn't improve with larger Rashomon sets.
           </li>
         </ul>
       </section>
@@ -75,39 +76,40 @@ export default function Research() {
 
     {/* Project 1 — STRONGEST FIRST */}
     <div>
-      <h3 className="text-lg font-semibold text-white">
-        Multi-Agent Deliberation & Consensus Dynamics (First Author, Solo)
-      </h3>
-      <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
-        <li>
-          Developed a multi-agent LLM framework to investigate how consensus emerges 
-          across subjective and objective tasks, identifying model-to-model deference 
-          as a primary driver of convergence rather than independent reasoning.
-        </li>
-        <li>
-          Designed and executed large-scale 20-round deliberation experiments across 
-          GlobalOpinionsQA, Anthropic Persona-Written Evals, and Humanity’s Last Exam 
-          using named and anonymized agents from the GPT-4.1 family (GPT-4.1, GPT-4.1-nano, GPT-4.1-mini).
-        </li>
-        <li>
-          Introduced a rotation-based experimental paradigm 
-          to disentangle the effects of model identity vs. answer quality, 
-          demonstrating that response quality plays a stronger role in deference dynamics.
-        </li>
-        <li>
-          Formalized quantitative metrics for multi-agent interaction, including inter-round disagreement, 
-          pairwise disagreement, and directional model deference.
-        </li>
-        <li>
-          Showed that system-level interventions (e.g., prompting strategies) can 
-          significantly alter or destabilize consensus formation.
-        </li>
-        <li>
-          Paper in preparation for submission to ICML workshops 
-          (Pluralistic Alignment, AI4Good, Epistemic Intelligence in ML).
-        </li>
-      </ul>
-    </div>
+  <h3 className="text-lg font-semibold text-white">
+    Multi-Agent Deliberation & Consensus Dynamics (First Author, Solo)
+  </h3>
+  <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+    <li>
+      Developed a multi-agent LLM framework to study consensus formation, showing that convergence is driven by 
+      directional model deference rather than purely independent reasoning. 
+    </li>
+    <li>
+      Designed and executed large-scale 20-round deliberation experiments across subjective and objective benchmarks 
+      (GlobalOpinionsQA, Anthropic Written-Evals, Humanity’s Last Exam) using GPT-4.1, Mistral, and 
+      cross-family model systems (Phi, LLaMA, and Mistral).
+    </li>
+    <li>
+      Demonstrated that model deference is not a fixed hierarchical property, 
+      but varies with dataset characteristics, model composition, and interaction setting.
+    </li>
+    <li>
+      Introduced a rotation-based experimental framework that 
+      disentangles model identity from response content, revealing that identity alone does not explain inter-agent influence.
+    </li>
+    <li>
+      Formalized quantitative metrics for multi-agent dynamics, including inter-round disagreement (IDR),
+       directional model deference (MDR), and accuracy-aware deference measures (MDAR).
+    </li>
+    <li>
+      Showed that system-level interventions (e.g., adversarial and independent prompting) can 
+      significantly alter or destabilize consensus formation by reducing or reshaping model deference.
+    </li>
+    <li>
+      In submission to 2 ICML 2026 workshops (Pluralistic Alignment, AI4Good). 
+    </li>
+  </ul>
+</div>
 
     {/* Project 2 */}
     <div>
