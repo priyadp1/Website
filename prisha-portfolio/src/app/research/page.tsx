@@ -20,7 +20,7 @@ export default function Research() {
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            Lead ML Research Extern — DIMACS / Rutgers MBS Exchange
+            Lead ML Researcher — DIMACS / Rutgers MBS Exchange
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
             Interpretable ML & Model Multiplicity

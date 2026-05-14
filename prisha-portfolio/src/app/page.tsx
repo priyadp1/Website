@@ -17,8 +17,7 @@ export default function Home() {
             I study <span className="text-white font-medium">multi-agent consensus formation</span>, 
             <span className="text-white font-medium"> multimodal machine learning</span>, and 
             <span className="text-white font-medium"> interpretable ML</span>. 
-            My work investigates how structured reasoning and reliable behavior 
-            emerge in large-scale models.
+            My work investigates how large-scale models behave and why.
           </p>
 
           <p>
@@ -74,14 +73,14 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Lead Machine Learning Research Extern --- Interpretable ML & Model Multiplicity
+                Lead ML Researcher --- Interpretable ML & Model Multiplicity
               </h3>
               <p className="text-sm text-gray-400">
                 The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) / Rutgers MBS Exchange · Externship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
-              Jan 2026 – May 2026
+              Jan 2026 – Present
             </span>
           </div>
 
