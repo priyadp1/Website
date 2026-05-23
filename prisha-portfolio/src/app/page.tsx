@@ -106,7 +106,7 @@ export default function Home() {
                 AI Researcher --- Multi-Agent LLM Deliberation & Consensus Dynamics
               </h3>
               <p className="text-sm text-gray-400">
-                Algoverse AI Research · Internship
+                Algoverse AI Research · ICML 2026 (Pluralistic Alignment Workshop) · Internship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -121,7 +121,7 @@ export default function Home() {
                 AI Researcher --- Multimodal Scene Captioning Systems
               </h3>
               <p className="text-sm text-gray-400">
-                Algoverse AI Research · NeurIPS 2025 (7HVU Oral) · AAAI 2026 (AI4EDU) · Internship
+                Algoverse AI Research · NeurIPS 2025 (7HVU Workshop (Oral)) · AAAI 2026 (AI4EDU Workshop) · Internship
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
