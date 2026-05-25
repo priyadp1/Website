@@ -58,7 +58,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                AI/ML Open Source Contributor (DeepChem) 
+                Open Source Contributor (DeepChem) 
               </h3>
               <p className="text-sm text-gray-400">
                 Google Summer of Code · DeepChem

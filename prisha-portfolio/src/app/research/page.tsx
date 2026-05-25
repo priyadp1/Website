@@ -29,7 +29,7 @@ export default function Research() {
 
         <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
           <li>
-            Lead an empirical study under Dr. Linda Ness on interpretable decision trees (SPLIT, GOSDT, LicketySPLIT, LicketyRESPLIT)
+            Lead an empirical study under Dr. Linda Ness and Dr. Lesia Semenova on sparse decision trees (SPLIT, GOSDT, LicketySPLIT, LicketyRESPLIT)
             against 3 boosting models (XGBoost, LightGBM, CatBoost) across 6 real-world datasets examining
             conditions where simple models can achieve near-identical accuracy to complex models, and 
             how dataset properties influence model structure and multiplicity.
@@ -106,7 +106,8 @@ export default function Research() {
       significantly alter or destabilize consensus formation by reducing or reshaping model deference.
     </li>
     <li>
-      In submission to 2 ICML 2026 workshops (Pluralistic Alignment, AI4Good). 
+      Accepted to the ICML 2026 Pluralistic Alignment workshop and currently under review 
+      at the ICML 2026 AI4GOOD workshop.
     </li>
   </ul>
 </div>
@@ -130,12 +131,10 @@ export default function Research() {
           BERTScore, SBERT similarity, and temporal alignment metrics.
         </li>
         <li>
-          Achieved <span className="text-white font-medium"> +17% CIDEr over GPT-4o 
-            and +14% over VideoLLaMA-3 </span> on the YouCook2 dataset.
+          Achieved +17% CIDEr over GPT-4o and +14% over VideoLLaMA-3 on the YouCook2 dataset.
         </li>
         <li>
-          Accepted to <span className="text-white font-medium"> NeurIPS 2025 (7HVU Workshop, Oral) </span> 
-          and <span className="text-white font-medium"> AAAI 2026 (AI4EDU Workshop) </span>.
+          Accepted to NeurIPS 2025 (7HVU Workshop, Oral) and AAAI 2026 (AI4EDU Workshop).
         </li>
       </ul>
     </div>
