@@ -140,7 +140,7 @@ export default function Home() {
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
-              Sept 2025 – Present
+              Sept 2025 – June 2026
             </span>
           </div>
 

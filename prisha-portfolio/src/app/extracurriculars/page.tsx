@@ -24,7 +24,7 @@ export default function extracurriculars() {
               Mathematics Grader — Rutgers University–New Brunswick
             </h2>
             <p className="text-sm text-gray-500 mt-1 tracking-wide">
-              Jan 2026 – Present
+              Jan 2026 – May 2026
             </p>
           </div>
 
