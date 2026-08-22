@@ -52,7 +52,7 @@ export default function Home() {
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
-              Aug 2026
+              Aug 2026 - Present
             </span>
           </div>
         
@@ -77,11 +77,11 @@ export default function Home() {
                 Open Source Developer (DeepChem) 
               </h3>
               <p className="text-sm text-gray-400">
-                Google Summer of Code · DeepChem
+                Google Summer of Code 
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
-              May 2026
+              May 2026 - Present
             </span>
           </div>
 
@@ -95,7 +95,7 @@ export default function Home() {
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
-              May 2026
+              May 2026 - Present
             </span>
           </div>
 
@@ -106,7 +106,7 @@ export default function Home() {
                 Lead Machine Learning Researcher --- Interpretable ML & Model Multiplicity
               </h3>
               <p className="text-sm text-gray-400">
-                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) / Rutgers MBS Exchange · Externship
+                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Research · Rutgers University
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">

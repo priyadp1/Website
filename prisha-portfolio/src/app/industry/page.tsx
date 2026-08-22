@@ -20,7 +20,7 @@ export default function IndustryExperience() {
             AI Engineering Intern — DrRx
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            May 2026 - Aug 2026
+            Aug 2026 - Present
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export default function IndustryExperience() {
             Open Source Developer (DeepChem) — Google Summer of Code
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            May 2026
+            May 2026 - Present
           </p>
         </div>
 
@@ -88,7 +88,7 @@ export default function IndustryExperience() {
             AI Fellow - AI4ALL Ignite Summer Accelerator 
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            May 2026
+            May 2026 - Present
           </p>
         </div>
 
@@ -138,8 +138,7 @@ export default function IndustryExperience() {
             </li>
             <li>
               Built and evaluated LightGBM-based multi-class peril classifiers,
-              applying SMOTE class balancing to improve accuracy and F1 score
-              by approximately 10%.
+              applying SMOTE class balancing achieving a 70% accuracy and F1 score.
             </li>
             <li>
               Experimented with a Temporal Fusion Transformer (TFT),
