@@ -40,14 +40,44 @@ export default function Home() {
 
         <div className="space-y-8">
           
+
+          {/* DrRx */}
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                AI Engineering Intern 
+              </h3>
+              <p className="text-sm text-gray-400">
+                DrRx · Internship
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              Aug 2026
+            </span>
+          </div>
+        
           {/* Regeneron */}
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Machine Learning Intern (Incoming) 
+                Machine Learning Intern  
               </h3>
               <p className="text-sm text-gray-400">
                 Regeneron · QA Validations & Operations · Internship
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              May 2026 – Aug 2026
+            </span>
+          </div>
+
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                Open Source Developer (DeepChem) 
+              </h3>
+              <p className="text-sm text-gray-400">
+                Google Summer of Code · DeepChem
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -58,10 +88,10 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Open Source Contributor (DeepChem) 
+                AI Fellow
               </h3>
               <p className="text-sm text-gray-400">
-                Google Summer of Code · DeepChem
+                AI4ALL · AI4ALL Ignite Summer Accelerator
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
@@ -73,7 +103,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Lead ML Researcher --- Interpretable ML & Model Multiplicity
+                Lead Machine Learning Researcher --- Interpretable ML & Model Multiplicity
               </h3>
               <p className="text-sm text-gray-400">
                 The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) / Rutgers MBS Exchange · Externship
@@ -103,7 +133,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                AI Researcher --- Multi-Agent LLM Deliberation & Consensus Dynamics
+                Artificial Intelligence Researcher --- Multi-Agent LLM Deliberation & Consensus Dynamics
               </h3>
               <p className="text-sm text-gray-400">
                 Algoverse AI Research · ICML 2026 (Pluralistic Alignment Workshop) · Internship
@@ -118,7 +148,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                AI Researcher --- Multimodal Scene Captioning Systems
+                Artificial Intelligence Researcher --- Multimodal Scene Captioning Systems
               </h3>
               <p className="text-sm text-gray-400">
                 Algoverse AI Research · NeurIPS 2025 (7HVU Workshop (Oral)) · AAAI 2026 (AI4EDU Workshop) · Internship

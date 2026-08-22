@@ -20,7 +20,7 @@ export default function Research() {
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
-            Lead ML Researcher — DIMACS / Rutgers MBS Exchange
+            Lead Researcher — Center for Discrete Mathematics and Theoretical Computer Science (DIMACS)
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
             Interpretable ML & Model Multiplicity
@@ -106,8 +106,7 @@ export default function Research() {
       significantly alter or destabilize consensus formation by reducing or reshaping model deference.
     </li>
     <li>
-      Accepted to the ICML 2026 Pluralistic Alignment workshop and currently under review 
-      at the ICML 2026 AI4GOOD workshop.
+      Accepted to the ICML 2026 Pluralistic Alignment workshop
     </li>
   </ul>
 </div>
