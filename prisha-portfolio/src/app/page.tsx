@@ -81,7 +81,7 @@ export default function Home() {
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">
-              May 2026 - Present
+              May 2026 - Aug 2026
             </span>
           </div>
 
@@ -91,7 +91,7 @@ export default function Home() {
                 AI Fellow
               </h3>
               <p className="text-sm text-gray-400">
-                AI4ALL · AI4ALL Ignite Summer Accelerator
+                AI4ALL Ignite Summer Accelerator
               </p>
             </div>
             <span className="text-sm text-gray-400 whitespace-nowrap">

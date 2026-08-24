@@ -56,7 +56,7 @@ export default function IndustryExperience() {
             Open Source Developer (DeepChem) — Google Summer of Code
           </h2>
           <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            May 2026 - Present
+            May 2026 - Aug 2026
           </p>
         </div>
 
