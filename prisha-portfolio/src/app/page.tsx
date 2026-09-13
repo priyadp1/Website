@@ -70,7 +70,37 @@ export default function Home() {
               Aug 2026 - Present
             </span>
           </div>
+
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                AI Fellow
+              </h3>
+              <p className="text-sm text-gray-400">
+                AI4ALL Ignite Summer Accelerator
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              May 2026 - Present
+            </span>
+          </div>
         
+
+          {/* DIMACS */}
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                Lead Machine Learning Researcher --- Interpretable ML & Model Multiplicity
+              </h3>
+              <p className="text-sm text-gray-400">
+                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Research · Rutgers University
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              Jan 2026 – Present
+            </span>
+          </div>
+
           {/* Regeneron */}
           <div className="flex justify-between items-start">
             <div>
@@ -89,7 +119,7 @@ export default function Home() {
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-medium text-white">
-                Open Source Developer (DeepChem) 
+                Google Summer of Code 2026 Contributor (DeepChem)  
               </h3>
               <p className="text-sm text-gray-400">
                 Google Summer of Code 
@@ -100,34 +130,6 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="flex justify-between items-start">
-            <div>
-              <h3 className="text-xl font-medium text-white">
-                AI Fellow
-              </h3>
-              <p className="text-sm text-gray-400">
-                AI4ALL Ignite Summer Accelerator
-              </p>
-            </div>
-            <span className="text-sm text-gray-400 whitespace-nowrap">
-              May 2026 - Present
-            </span>
-          </div>
-
-          {/* DIMACS */}
-          <div className="flex justify-between items-start">
-            <div>
-              <h3 className="text-xl font-medium text-white">
-                Lead Machine Learning Researcher --- Interpretable ML & Model Multiplicity
-              </h3>
-              <p className="text-sm text-gray-400">
-                The Center for Discrete Mathematics and Theoretical Computer Science (DIMACS) · Research · Rutgers University
-              </p>
-            </div>
-            <span className="text-sm text-gray-400 whitespace-nowrap">
-              Jan 2026 – Present
-            </span>
-          </div>
 
           {/* Geospatial AI */}
           <div className="flex justify-between items-start">

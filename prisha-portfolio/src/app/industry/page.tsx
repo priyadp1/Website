@@ -45,60 +45,7 @@ export default function IndustryExperience() {
           integrating data from PostgreSQL and AWS S3.
         </p>
       </section>
-
-      {/* Regeneron */}
-      <section className="space-y-8 max-w-3xl">
-        <div>
-          <h2 className="text-2xl font-semibold text-white">
-            Machine Learning Intern — Regeneron
-          </h2>
-          <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            May 2026 - Aug 2026
-          </p>
-        </div>
-
-        <p className="text-gray-400 leading-relaxed">
-        Deployed a Streamlit application for the QA Validation and Operations Team after 
-        evaluating 10+ machine learning modeling approaches and selecting TabPFN Regressor and Classifier models, 
-        engineering 40 trend-based features from 500K+ GMP manufacturing records to predict equipment breakdowns, 
-        achieving a 67.8% ROC-AUC.
-        </p>
-      </section>
-
-      <hr className="border-gray-800" />
-
-      <section className="space-y-8 max-w-3xl">
-        <div>
-          <h2 className="text-2xl font-semibold text-white">
-            Open Source Developer (DeepChem) — Google Summer of Code
-          </h2>
-          <p className="text-sm text-gray-500 mt-1 tracking-wide">
-            May 2026 - Aug 2026
-          </p>
-        </div>
-
-        <p className="text-gray-400 leading-relaxed">
-          <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
-            <li>
-              Selected as 1 of 5 from 200+ applicants to extend DeepChem’s support for 
-              large-scale molecular language models.
-            </li>
-            <li>
-              Extended the HuggingFaceModel class by implementing the generate() API, 
-              implementing batched autoregressive inference,tokenizer padding, and device-aware execution.
-            </li>
-            <li>
-              Developed an OLMo wrapper class supporting regression, 
-              classification, multitask learning, and causal language modeling
-              with custom prediction heads, pretrained checkpoint loading, 
-              mixed-precision inference, LoRA/QLoRA, and multi-GPU support.
-            </li>
-          </ul>
-        </p>
-      </section>
-
-      <hr className="border-gray-800" />
-
+     <hr className="border-gray-800" />
       <section className="space-y-8 max-w-3xl">
         <div>
           <h2 className="text-2xl font-semibold text-white">
@@ -128,6 +75,61 @@ export default function IndustryExperience() {
         </p>
       </section>
         <hr className="border-gray-800" />
+
+      {/* Regeneron */}
+      <section className="space-y-8 max-w-3xl">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">
+            Machine Learning Intern — Regeneron
+          </h2>
+          <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            May 2026 - Aug 2026
+          </p>
+        </div>
+
+        <p className="text-gray-400 leading-relaxed">
+        Deployed a Streamlit application for the QA Validation and Operations Team after 
+        evaluating 10+ machine learning modeling approaches and selecting TabPFN Regressor and Classifier models, 
+        engineering 40 trend-based features from 500K+ GMP manufacturing records to predict equipment breakdowns, 
+        achieving a 67.8% ROC-AUC.
+        </p>
+      </section>
+
+      <hr className="border-gray-800" />
+
+      <section className="space-y-8 max-w-3xl">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">
+            Google Summer of Code 2026 Contributor (DeepChem) 
+          </h2>
+          <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            May 2026 - Aug 2026
+          </p>
+        </div>
+
+        <p className="text-gray-400 leading-relaxed">
+          <ul className="space-y-3 text-gray-400 list-disc list-inside leading-relaxed">
+            <li>
+              Selected as 1 of 5 from 200+ applicants to extend DeepChem’s support for 
+              large-scale molecular language models.
+            </li>
+            <li>
+              Extended the HuggingFaceModel class by implementing the generate() API, 
+              implementing batched autoregressive inference,tokenizer padding, and device-aware execution.
+            </li>
+            <li>
+              Developed an OLMo wrapper class supporting regression, 
+              classification, multitask learning, and causal language modeling
+              with custom prediction heads, pretrained checkpoint loading, 
+              mixed-precision inference, LoRA/QLoRA, and multi-GPU support.
+            </li>
+          </ul>
+        </p>
+      </section>
+
+      <hr className="border-gray-800" />
+
+      
 
       {/* Insurity */}
       <section className="space-y-10 max-w-3xl">
