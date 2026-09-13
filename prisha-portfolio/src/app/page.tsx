@@ -40,6 +40,21 @@ export default function Home() {
 
         <div className="space-y-8">
           
+          {/* DFS */}
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-xl font-medium text-white">
+                Machine Learning Research Intern 
+              </h3>
+              <p className="text-sm text-gray-400">
+                Deep Forest Sciences · Internship
+              </p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">
+              Sept 2026 - Present
+            </span>
+          </div>
+        
 
           {/* DrRx */}
           <div className="flex justify-between items-start">

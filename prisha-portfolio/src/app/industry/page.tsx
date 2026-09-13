@@ -13,6 +13,22 @@ export default function IndustryExperience() {
       </div>
 
 
+      {/* DFS */}
+      <section className="space-y-8 max-w-3xl">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">
+            Machine Learning Research Intern — Deep Forest Sciences
+          </h2>
+          <p className="text-sm text-gray-500 mt-1 tracking-wide">
+            Sept 2026 - Present
+          </p>
+        </div>
+
+        <p className="text-gray-400 leading-relaxed">
+          Developing ChemBERTa-4, an OLMo-based chemical language model for 
+          molecular representation learning and property prediction.
+        </p>
+      </section>
       {/* DrRx */}
       <section className="space-y-8 max-w-3xl">
         <div>
@@ -26,7 +42,7 @@ export default function IndustryExperience() {
 
         <p className="text-gray-400 leading-relaxed">
           Developing a RAG pipeline leveraging BM25S retrieval and Qwen2.5-7B-Instruct over 2K+ pharmaceutical documents,
-          integrating data from PostgreSQL and AWS S3
+          integrating data from PostgreSQL and AWS S3.
         </p>
       </section>
 
@@ -42,9 +58,10 @@ export default function IndustryExperience() {
         </div>
 
         <p className="text-gray-400 leading-relaxed">
-        Deployed a Streamlit application for the QA Validation and Operations Team using TabPFN Regressor and Classifier
-        models, engineering 40 trend-based features from 500K+ GMP manufacturing records to predict equipment
-        breakdowns, achieving a 67.8% ROC-AUC
+        Deployed a Streamlit application for the QA Validation and Operations Team after 
+        evaluating 10+ machine learning modeling approaches and selecting TabPFN Regressor and Classifier models, 
+        engineering 40 trend-based features from 500K+ GMP manufacturing records to predict equipment breakdowns, 
+        achieving a 67.8% ROC-AUC.
         </p>
       </section>
 
